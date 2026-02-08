@@ -1,0 +1,13 @@
+{
+	"options" :
+	{
+		"ignoreSetYoffsetHalf" : false,
+		"prefix" : "LELOATR_"
+	},
+	"include" : [
+		"transistors.json",
+		"alltran.json"
+
+	],
+    "cells" : []
+}
