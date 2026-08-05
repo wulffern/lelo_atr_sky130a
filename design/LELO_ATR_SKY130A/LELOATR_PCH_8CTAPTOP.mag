@@ -1,9 +1,9 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1767481200
+timestamp 1785880800
 << checkpaint >>
-rect -184 -128 1592 608
+rect 0 0 1408 480
 << ntap >>
 rect -96 -40 96 40
 rect 1312 -40 1504 40
@@ -26,5 +26,5 @@ rect 160 200 1248 280
 rect -184 -128 1592 608
 << labels >>
 << properties >>
-string FIXED_BBOX -184 -128 1592 608
+string FIXED_BBOX 0 0 1408 480
 << end >>

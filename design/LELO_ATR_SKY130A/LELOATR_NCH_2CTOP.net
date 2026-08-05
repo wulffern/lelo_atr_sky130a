@@ -1,0 +1,44 @@
+ Netlist File
+ LELOATR_NCH_2CTOP
+ D2
+xa2/D
+
+ G2
+xa2/G
+
+ S2
+xa2/S
+
+ B
+xa2/B
+xa3/B
+xb2/B
+xb3/B
+
+ D3
+xa3/D
+
+ G3
+xa3/G
+
+ S3
+xa3/S
+
+ D4
+xb2/D
+
+ G4
+xb2/G
+
+ S4
+xb2/S
+
+ D5
+xb3/D
+
+ G5
+xb3/G
+
+ S5
+xb3/S
+

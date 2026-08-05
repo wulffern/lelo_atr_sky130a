@@ -22,11 +22,11 @@ sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X
 }
-N 440.0 -30.0 420.0 -30.0 {lab=D}
-C {devices/lab_pin.sym} 440.0 -30.0 2 0 {name=l0 sig_type=std_logic lab=D }
+N 420.0 -50.0 420.0 -30.0 {lab=D}
+C {devices/lab_pin.sym} 420.0 -50.0 3 0 {name=l0 sig_type=std_logic lab=D }
 N 360.0 0.0 380.0 0.0 {lab=G}
 C {devices/lab_pin.sym} 360.0 0.0 0 0 {name=l1 sig_type=std_logic lab=G }
-N 440.0 30.0 420.0 30.0 {lab=S}
-C {devices/lab_pin.sym} 440.0 30.0 2 0 {name=l2 sig_type=std_logic lab=S }
+N 420.0 50.0 420.0 30.0 {lab=S}
+C {devices/lab_pin.sym} 420.0 50.0 1 0 {name=l2 sig_type=std_logic lab=S }
 N 440.0 0.0 420.0 0.0 {lab=B}
 C {devices/lab_pin.sym} 440.0 0.0 2 0 {name=l3 sig_type=std_logic lab=B }
