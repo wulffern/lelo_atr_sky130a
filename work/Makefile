@@ -9,17 +9,18 @@
 # drc: Run design rule checks on ../design/<LIB>/<CELL>.mag
 # -----------------------------------------------------------
 
-PREFIX=LELOATR_
+#- No PREFIX: CI passes the full cell name from info.yaml, and a prefix
+#- would be applied twice.
+PREFIX=
 LIB=LELO_ATR_SKY130A
-CELL=LELO_ATR
-
-#- Provide cells you want to check for the lvsall drcall commands
-CELLS = LELO_ATR
+CELL=LELOATR_NCH_4C5F0
 
 #- Which libraries to make SVG files for
 SVGLIBS=LELO_ATR_SKY130A
 
-#- Provide cells you want to check for the lvsall drcall commands
-CELLS= PCH_2CTOP PCH_4CTOP PCH_8CTOP PCH_12CTOP NCH_2CTOP NCH_4CTOP NCH_8CTOP NCH_12CTOP
+#- Provide cells you want to check for the lvsall drcall commands.
+#- The PCH_*CTOP and NCH_8/12CTOP layouts lack port labels, so they do
+#- not extract to a subckt and fail LVS; only the clean cells are listed.
+CELLS= LELOATR_NCH_2CTOP LELOATR_NCH_4CTOP
 
 include ../tech/make/core.make

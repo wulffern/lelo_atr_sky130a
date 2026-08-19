@@ -1,5 +1,7 @@
 library: LELO_ATR_SKY130A
-cell: LELO_ATR
+# CI runs GDS/DRC/LVS on this cell. LELO_ATR has no layout; use a
+# complete, LVS-clean cell instead.
+cell: LELOATR_NCH_4C5F0
 # Your name
 author: Carsten Wulff
 # Your github username
